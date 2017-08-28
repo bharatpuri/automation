@@ -1,0 +1,114 @@
+2017-08-24 11:59:57 INFO  Browser:14 - Hello
+2017-08-24 12:17:10 INFO  Browser:17 - Hello
+2017-08-24 12:17:10 INFO  DataStoreRepository:52 - Property file is loaded successfully: pageobjects/loginPage.properties
+2017-08-24 12:20:10 INFO  Browser:17 - Hello
+2017-08-24 12:20:10 INFO  DataStoreRepository:52 - Property file is loaded successfully: pageobjects/loginPage.properties
+2017-08-24 14:48:37 INFO  Browser:17 - Hello
+2017-08-24 14:48:37 INFO  DataStoreRepository:52 - Property file is loaded successfully: pageobjects/loginPage.properties
+2017-08-24 14:48:51 INFO  Browser:17 - Hello
+2017-08-24 14:48:51 INFO  DataStoreRepository:52 - Property file is loaded successfully: pageobjects/loginPage.properties
+2017-08-24 14:51:19 INFO  Browser:17 - Hello
+2017-08-24 14:51:19 INFO  DataStoreRepository:52 - Property file is loaded successfully: pageobjects/loginPage.properties
+2017-08-24 14:57:28 INFO  Browser:17 - Hello
+2017-08-24 14:57:28 INFO  DataStoreRepository:52 - Property file is loaded successfully: pageobjects/loginPage.properties
+2017-08-24 14:58:45 INFO  Browser:18 - Hello
+2017-08-24 14:58:45 INFO  DataStoreRepository:52 - Property file is loaded successfully: config.properties
+2017-08-24 15:07:13 INFO  Browser:18 - Hello
+2017-08-24 15:13:54 INFO  Browser:18 - Hello
+2017-08-24 15:13:54 INFO  DataStoreRepository:52 - Property file is loaded successfully: config.properties
+2017-08-24 15:14:52 INFO  Browser:18 - Hello
+2017-08-24 15:14:52 INFO  DataStoreRepository:52 - Property file is loaded successfully: config.properties
+2017-08-24 15:17:04 INFO  Browser:19 - Hello
+2017-08-24 15:17:04 INFO  DataStoreRepository:52 - Property file is loaded successfully: config.properties
+2017-08-24 16:28:12 INFO  Browser:18 - Hello
+2017-08-24 16:28:12 INFO  DataStoreRepository:52 - Property file is loaded successfully: config.properties
+2017-08-24 17:34:21 INFO  Browser:18 - Hello
+2017-08-24 17:34:21 INFO  DataStoreRepository:52 - Property file is loaded successfully: config.properties
+2017-08-24 17:35:57 INFO  Browser:18 - Hello
+2017-08-24 17:35:57 INFO  DataStoreRepository:52 - Property file is loaded successfully: config.properties
+2017-08-24 17:37:00 INFO  Browser:18 - Hello
+2017-08-24 17:37:35 INFO  Browser:18 - Hello
+2017-08-24 17:37:35 INFO  DataStoreRepository:52 - Property file is loaded successfully: config.properties
+2017-08-24 17:38:45 INFO  Browser:18 - Hello
+2017-08-24 17:38:45 INFO  DataStoreRepository:52 - Property file is loaded successfully: config.properties
+2017-08-24 17:39:25 INFO  Browser:18 - Hello
+2017-08-24 17:39:25 INFO  DataStoreRepository:52 - Property file is loaded successfully: config.properties
+2017-08-24 17:39:47 INFO  Browser:18 - Hello
+2017-08-24 17:39:47 INFO  DataStoreRepository:52 - Property file is loaded successfully: config.properties
+2017-08-24 17:44:04 INFO  Browser:18 - Hello
+2017-08-24 17:44:04 INFO  DataStoreRepository:52 - Property file is loaded successfully: config.properties
+2017-08-24 17:45:28 INFO  Browser:18 - Hello
+2017-08-24 17:45:28 INFO  DataStoreRepository:52 - Property file is loaded successfully: config.properties
+2017-08-24 17:45:39 INFO  Browser:19 - Hello
+2017-08-24 17:45:39 INFO  DataStoreRepository:52 - Property file is loaded successfully: config.properties
+2017-08-24 17:50:57 INFO  Browser:18 - Hello
+2017-08-24 17:50:57 INFO  DataStoreRepository:52 - Property file is loaded successfully: config.properties
+2017-08-24 17:51:01 INFO  Browser:18 - Hello
+2017-08-24 17:51:01 INFO  DataStoreRepository:52 - Property file is loaded successfully: config.properties
+2017-08-24 17:51:33 INFO  Browser:18 - Hello
+2017-08-24 17:51:33 INFO  DataStoreRepository:52 - Property file is loaded successfully: config.properties
+2017-08-24 18:19:09 INFO  Browser:18 - Hello
+2017-08-24 18:19:09 INFO  DataStoreRepository:52 - Property file is loaded successfully: config.properties
+2017-08-24 18:19:31 INFO  Browser:18 - Hello
+2017-08-24 18:19:31 INFO  DataStoreRepository:52 - Property file is loaded successfully: config.properties
+2017-08-24 18:21:11 INFO  Browser:18 - Hello
+2017-08-24 18:21:11 INFO  DataStoreRepository:52 - Property file is loaded successfully: config.properties
+2017-08-24 18:22:29 INFO  Browser:18 - Hello
+2017-08-24 18:22:29 INFO  DataStoreRepository:52 - Property file is loaded successfully: config.properties
+2017-08-24 18:23:32 INFO  Browser:18 - Hello
+2017-08-24 18:23:32 INFO  DataStoreRepository:52 - Property file is loaded successfully: config.properties
+2017-08-24 18:28:54 INFO  Browser:18 - Hello
+2017-08-24 18:28:54 INFO  DataStoreRepository:52 - Property file is loaded successfully: config.properties
+2017-08-24 18:29:10 INFO  Browser:18 - Hello
+2017-08-24 18:29:10 INFO  DataStoreRepository:52 - Property file is loaded successfully: config.properties
+2017-08-24 18:30:10 INFO  Browser:18 - Hello
+2017-08-24 18:30:10 INFO  DataStoreRepository:52 - Property file is loaded successfully: config.properties
+2017-08-24 18:33:38 INFO  Browser:18 - Hello
+2017-08-24 18:33:38 INFO  DataStoreRepository:52 - Property file is loaded successfully: config.properties
+2017-08-24 18:33:46 INFO  Browser:24 - Implicit wait applied on the driver for 60 seconds
+2017-08-24 18:33:46 INFO  Browser:26 - Maximixe the window
+2017-08-24 18:33:46 INFO  Browser:27 - Web application launched: http://toolsqa.com/handling-alerts-using-selenium-webdriver/
+2017-08-24 18:38:51 INFO  Browser:18 - Hello
+2017-08-24 18:38:51 INFO  DataStoreRepository:52 - Property file is loaded successfully: config.properties
+2017-08-24 18:38:51 INFO  DataStoreRepository:52 - Property file is loaded successfully: pageobjects/loginPage.properties
+2017-08-24 18:39:12 INFO  Browser:18 - Hello
+2017-08-24 18:39:12 INFO  DataStoreRepository:52 - Property file is loaded successfully: config.properties
+2017-08-24 18:39:12 INFO  DataStoreRepository:52 - Property file is loaded successfully: config.properties
+2017-08-24 18:39:18 INFO  Browser:24 - Implicit wait applied on the driver for 60 seconds
+2017-08-24 18:39:18 INFO  Browser:26 - Maximixe the window
+2017-08-24 18:39:18 INFO  Browser:27 - Web application launched: http://toolsqa.com/handling-alerts-using-selenium-webdriver/
+2017-08-24 18:39:24 INFO  Browser:18 - Hello
+2017-08-24 18:39:24 INFO  DataStoreRepository:52 - Property file is loaded successfully: config.properties
+2017-08-24 18:39:24 INFO  DataStoreRepository:52 - Property file is loaded successfully: config.properties
+2017-08-24 18:39:28 INFO  Browser:24 - Implicit wait applied on the driver for 60 seconds
+2017-08-24 18:39:46 INFO  Browser:18 - Hello
+2017-08-24 18:39:46 INFO  DataStoreRepository:52 - Property file is loaded successfully: config.properties
+2017-08-24 18:39:46 INFO  DataStoreRepository:52 - Property file is loaded successfully: config.properties
+2017-08-24 18:39:49 INFO  Browser:24 - Implicit wait applied on the driver for 60 seconds
+2017-08-24 18:39:49 INFO  Browser:26 - Maximixe the window
+2017-08-24 18:39:49 INFO  Browser:27 - Web application launched: http://toolsqa.com/handling-alerts-using-selenium-webdriver/
+2017-08-24 18:40:16 INFO  Browser:18 - Hello
+2017-08-24 18:40:16 INFO  DataStoreRepository:52 - Property file is loaded successfully: config.properties
+2017-08-24 18:40:16 INFO  DataStoreRepository:52 - Property file is loaded successfully: config.properties
+2017-08-24 18:40:21 INFO  Browser:24 - Implicit wait applied on the driver for 60 seconds
+2017-08-24 18:40:21 INFO  Browser:26 - Maximixe the window
+2017-08-24 18:40:21 INFO  Browser:27 - Web application launched: http://toolsqa.com/handling-alerts-using-selenium-webdriver/
+2017-08-24 18:40:41 INFO  Browser:18 - Hello
+2017-08-24 18:40:41 INFO  DataStoreRepository:52 - Property file is loaded successfully: config.properties
+2017-08-24 18:40:41 INFO  DataStoreRepository:52 - Property file is loaded successfully: config.properties
+2017-08-24 18:40:46 INFO  Browser:24 - Implicit wait applied on the driver for 60 seconds
+2017-08-24 18:41:18 INFO  Browser:18 - Hello
+2017-08-24 18:41:18 INFO  DataStoreRepository:52 - Property file is loaded successfully: config.properties
+2017-08-24 18:41:18 INFO  DataStoreRepository:52 - Property file is loaded successfully: config.properties
+2017-08-24 18:41:26 INFO  Browser:24 - Implicit wait applied on the driver for 60 seconds
+2017-08-24 18:41:29 INFO  Browser:18 - Hello
+2017-08-24 18:41:29 INFO  DataStoreRepository:52 - Property file is loaded successfully: config.properties
+2017-08-24 18:41:29 INFO  DataStoreRepository:52 - Property file is loaded successfully: config.properties
+2017-08-24 18:41:33 INFO  Browser:24 - Implicit wait applied on the driver for 60 seconds
+2017-08-24 18:41:33 INFO  Browser:26 - Maximixe the window
+2017-08-24 18:41:33 INFO  Browser:27 - Web application launched: http://toolsqa.com/handling-alerts-using-selenium-webdriver/
+2017-08-28 11:18:39 INFO  DataStoreRepository:52 - Property file is loaded successfully: config.properties
+2017-08-28 11:18:39 INFO  DataStoreRepository:52 - Property file is loaded successfully: config.properties
+2017-08-28 11:18:44 INFO  Browser:23 - Implicit wait applied on the driver for 60 seconds
+2017-08-28 11:18:45 INFO  Browser:25 - Maximixe the window
+2017-08-28 11:18:45 INFO  Browser:26 - Web application launched: http://toolsqa.com/handling-alerts-using-selenium-webdriver/
