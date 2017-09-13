@@ -41,7 +41,7 @@ public class ElementActionsImpl implements ElementActions {
 					.isDisplayed()) {
 				webElement = Browser.getDriver().findElement(By.cssSelector(locator_value));
 			} else
-				throw new com.base.HandleException("No element found on web page by " + locator_value);
+				throw new HandleException("No element found on web page by " + locator_value);
 			break;
 		case "xpath": // Search the element with xpath property
 			if (SeleniumWait.waitForElement()
@@ -119,7 +119,7 @@ public class ElementActionsImpl implements ElementActions {
 
 	}
 
-	public void clearText(String element) {
+	public void clearText(String element) throws HandleException {
 		WebElement webElement = getElement(element);
 
 		if (webElement.isEnabled()) {

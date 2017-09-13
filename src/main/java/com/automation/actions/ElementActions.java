@@ -14,7 +14,7 @@ public interface ElementActions {
 
 	public void submitOnElement(String element) throws HandleException;
 
-	public void clearText(String element);
+	public void clearText(String element) throws HandleException;
 
 	public void sendKeysToElement(String textToSend, String element) throws HandleException;
 }

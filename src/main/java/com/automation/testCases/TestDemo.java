@@ -13,10 +13,10 @@ public class TestDemo {
 	
 	public static void main(String[] args) throws HandleException {
 		
-		LOGGER.info("Start the execution of the program");
+		//LOGGER.info("Start the execution of the program");
 		
-		Browser b = new Chrome();
-		b.openBrowser();
+/*		Browser b = new Chrome();
+		b.openBrowser();*/
 		System.out.println("Hello");
 		
 //		DataStoreRepository data = new DataStoreRepository("pageobjects", "loginPage");
