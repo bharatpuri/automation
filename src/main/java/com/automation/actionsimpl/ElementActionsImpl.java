@@ -70,7 +70,7 @@ public class ElementActionsImpl implements ElementActions {
 //			} else
 //				throw new CustomException("No element found on web page by " + locator_value);
 //			break;
-//		case "tagName": // Search the element with tagName property
+//		case "tagName": 
 //			if (waitForElement().until(ExpectedConditions.visibilityOfElementLocated(By.tagName(locator_value)))
 //					.isDisplayed()) {
 //				webElement = Browser.getDriver().findElement(By.tagName(locator_value));
