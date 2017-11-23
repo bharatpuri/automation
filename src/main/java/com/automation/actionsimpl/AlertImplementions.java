@@ -3,30 +3,30 @@ package com.automation.actionsimpl;
 import org.openqa.selenium.Alert;
 
 import com.automation.actions.AlertActions;
-import com.automation.base.HandleException;
+import com.automation.base.CustomException;
 import com.automation.browser.Browser;
+
 public class AlertImplementions implements AlertActions {
 
+	Alert simpleAlert = Browser.getDriver().switchTo().alert();
 
-	public String getAlertText() throws HandleException {
-		Alert simpleAlert;
-
-		simpleAlert = Browser.getDriver().switchTo().alert();
+	public String getAlertText() throws CustomException {
 
 		String alertText = simpleAlert.getText();
 
 		return alertText;
 	}
 
-	public void handleAlert(String action) {
-		Alert simpleAlert;
+	@Override
+	public void acceptAlert() {
+		simpleAlert.accept();
 
-		simpleAlert =  Browser.getDriver().switchTo().alert();
+	}
 
-		if (action.equalsIgnoreCase("accept")) {
-			simpleAlert.accept();
-		} else
-			simpleAlert.dismiss();
+	@Override
+	public void dismissAlert() {
+		simpleAlert.dismiss();
+
 	}
 
 }

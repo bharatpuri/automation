@@ -3,6 +3,8 @@ package com.automation.base;
 import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.io.InputStream;
+import java.util.HashMap;
+import java.util.Map;
 import java.util.Properties;
 import java.util.Set;
 
@@ -17,10 +19,30 @@ import org.apache.log4j.Logger;
 public class DataStoreRepository {
 	private String folderName;
 	private String fileName;
+	//Hashmap : In this will store all keys and values for given properties
+	private Map<String, String> configValues;
+	
+	public String getValue(String key) throws CustomException {
+		String value = configValues.get(key);
+		if (value == null) {
+			throw new CustomException(key + ": Failed Key not found in selected file");
+		} else if (value.isEmpty()) {
+			throw new CustomException(key + ": Failed Kay does not have any value");
+		}
+		return value;
+	}
 
-	public DataStoreRepository(String folderNmae, String fileName) {
-		this.folderName = folderNmae;
+	 DataStoreRepository(String folderName, String fileName) {
+		this.folderName = folderName;
 		this.fileName = fileName;
+		this.configValues = new HashMap<>();
+	}
+	
+	public static DataStoreRepository loadRepository(String folderName, String fileName) throws CustomException {
+		DataStoreRepository dataStoreRepository = new DataStoreRepository(folderName, fileName);
+		Properties properties = dataStoreRepository.loadData(folderName, fileName);
+		dataStoreRepository.populateMap(properties);
+		return dataStoreRepository;
 	}
 
 	final static Logger LOGGER = Logger.getLogger(DataStoreRepository.class.getName());
@@ -31,10 +53,10 @@ public class DataStoreRepository {
 	 * @param folderName
 	 * @param fileName
 	 * @return property data
-	 * @throws HandleException
+	 * @throws CustomException
 	 * @throws FileNotFoundException
 	 */
-	private Properties loadData(String folderName, String fileName) throws HandleException {
+	private Properties loadData(String folderName, String fileName) throws CustomException {
 		InputStream resourceStream;
 		Properties props = new Properties();
 		String resourceName;
@@ -60,7 +82,7 @@ public class DataStoreRepository {
 				}
 			}
 		} else {
-			throw new HandleException("Filed file not found: " + resourceName);
+			throw new CustomException("Filed file not found: " + resourceName);
 		}
 		return props;
 	}
@@ -70,21 +92,20 @@ public class DataStoreRepository {
 	 * 
 	 * @param folderName
 	 * @param fileName
-	 * @throws HandleException
+	 * @throws CustomException
 	 */
-	private void populateMap(IDataStoreInMap dataStoreInMap)throws HandleException {
-		Properties data = loadData(folderName, fileName);
-
+	private void populateMap(Properties data)throws CustomException {
 		Set<String> propertyNames = data.stringPropertyNames();
 		for (String Property : propertyNames) {
-			dataStoreInMap.put(Property, data.getProperty(Property));
+			/*dataStoreInMap.put(Property, data.getProperty(Property));*/
+			configValues.put(Property, data.getProperty(Property));
 		}
 	}
 
-	public IDataStoreInMap CreateDataStoreForFile() throws HandleException{
+	/*public IDataStoreInMap CreateDataStoreForFile() throws HandleException{
 			DataStoreInMap dataStore = new DataStoreInMap();
 			populateMap(dataStore);
 			return dataStore;
 			
-	}	
+	}	*/
 }

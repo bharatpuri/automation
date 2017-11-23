@@ -1,11 +1,13 @@
 package com.automation.actions;
 
-import com.automation.base.HandleException;
+import com.automation.base.CustomException;
 
 public interface AlertActions {
 	
-	public abstract String getAlertText() throws HandleException;
+	public abstract String getAlertText() throws CustomException;
 
-	public abstract void handleAlert(String action);
+	public abstract void acceptAlert();
+	
+	public abstract void dismissAlert();
 
 }

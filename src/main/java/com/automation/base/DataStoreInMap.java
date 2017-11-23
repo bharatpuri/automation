@@ -15,12 +15,12 @@ public class DataStoreInMap implements IDataStoreInMap {
 		dataFromFiles = new HashMap<String, String>();
 	}
 
-	public String getValue(String key) throws HandleException {
+	public String getValue(String key) throws CustomException {
 		String temp = dataFromFiles.get(key);
 		if (temp == null) {
-			throw new HandleException(key + ": Failed Key not found in selected file");
+			throw new CustomException(key + ": Failed Key not found in selected file");
 		} else if (dataFromFiles.get(key).isEmpty()) {
-			throw new HandleException(key + ": Failed Kay does not have any value");
+			throw new CustomException(key + ": Failed Kay does not have any value");
 		}
 		return temp;
 	}
