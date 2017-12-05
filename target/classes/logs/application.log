@@ -546,3 +546,12 @@
 2017-11-23 15:36:12 INFO  ElementActionsImpl:171 - Text entered on this locator :id=j_usernamesuperadmin@lrs.com
 2017-11-23 15:36:12 INFO  ElementActionsImpl:171 - Text entered on this locator :id=j_passwordPassword1
 2017-11-23 15:36:12 INFO  ElementActionsImpl:91 - Click action performed on this element: xpath=//button[contains(.,'Login')]
+2017-11-23 18:04:26 INFO  DataStoreRepository:74 - Property file is loaded successfully: TestData/loginTestData.properties
+2017-11-23 18:04:26 INFO  DataStoreRepository:74 - Property file is loaded successfully: config.properties
+2017-11-23 18:04:26 INFO  DataStoreRepository:74 - Property file is loaded successfully: config.properties
+2017-11-23 18:04:32 INFO  Browser:23 - Implicit wait applied on the driver for 60 seconds
+2017-11-23 18:04:33 INFO  Browser:25 - Maximixe the window
+2017-11-23 18:04:33 INFO  Browser:26 - Web application launched: https://devconnect.lrsus.com/
+2017-11-23 18:06:26 INFO  ElementActionsImpl:167 - Text entered on this locator :id=j_usernamesuperadmin@lrs.com
+2017-11-23 18:06:32 INFO  ElementActionsImpl:167 - Text entered on this locator :id=j_passwordPassword1
+2017-11-23 18:06:49 INFO  ElementActionsImpl:91 - Click action performed on this element: xpath=//button[contains(.,'Login')]

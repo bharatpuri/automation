@@ -3,4 +3,5 @@
 .classpath
 /target/
 
-src/main/java/applicationCredentails
+src/main/java/applicationCredentails/UserCredentails.java
+TestAutomation/test-output/junitreports
