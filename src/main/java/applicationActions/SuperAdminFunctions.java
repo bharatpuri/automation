@@ -1,4 +1,4 @@
-package applicationFunctions;
+package applicationActions;
 
 import com.automation.actionsimpl.ElementActionsImpl;
 import com.automation.base.CustomException;

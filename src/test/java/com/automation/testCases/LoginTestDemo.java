@@ -6,7 +6,7 @@ import com.automation.base.CustomException;
 import com.automation.browser.Browser;
 import com.automation.browser.Chrome;
 
-import applicationFunctions.LoginPageFunctionality;
+import applicationActions.LoginPageFunctionality;
 
 public class LoginTestDemo {
 	LoginPageFunctionality login;
